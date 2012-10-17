@@ -1,7 +1,7 @@
 Fx.Anything
 ===========
 
-A simple yet powerful plug-in allowing time based transformations on anything while supporting all of the MooTools Fx class default properties and events.
+A simple yet powerful plug-in allowing time based transformations on anything while supporting all of MooTools Fx class default properties and events.
 
 How to use
 ----------
