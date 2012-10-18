@@ -3,6 +3,8 @@ Fx.Anything
 
 A simple yet powerful plug-in allowing animated transformations on anything while supporting all of MooTools Fx class default properties and events.
 
+![Fx.Anything](http://github.com/davidck/Fx.Anything/raw/master/logo.png)
+
 How to use
 ----------
 
@@ -61,6 +63,22 @@ Demo: [WebGL ex1](http://jsfiddle.net/davidck/jUSEU/)
 		}        
 	});
 	fx.start();
+	
+### Chaining Example
+Demo: [Chaining ex1](http://jsfiddle.net/davidck/DhPnK/)
+
+	fx.start().chain(function() {
+		fxCracking.start({
+			collection: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'a', 'b', 'c', 'd', 'e', 'f'],
+			codeLength: 6,
+			fontSize: 12,
+			cracked: []
+		}).chain(function() {
+			_door.setStyle('background-color', 'green');
+			document.body.getElements('strong, em').setStyle('color', 'green');
+			fx.start(true);
+		});
+	});
 
 Release Notes
 -------------
