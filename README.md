@@ -22,7 +22,7 @@ How to use
 	fx.start([1, 2]); // mixedVar will contain your array.
 
 
-Samples {demo}
+Samples
 -------
 
 ### CSS3 Transform
