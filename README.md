@@ -18,8 +18,7 @@ How to use
 	fx.start();
 	fx.start('my string'); // mixedVar will contain your string.
 	fx.start([1, 2]); // mixedVar will contain your array.
-	
-### See demo for a more advanced usage.
+
 
 Samples
 -------
@@ -48,5 +47,7 @@ Demo: [CSS3 example 1](http://jsfiddle.net/davidck/ZrPGd/)
 	});
 	
 	fx.start();
-	
-### More changes coming soon.
+
+Release Notes
+-------------
+More coming soon.
