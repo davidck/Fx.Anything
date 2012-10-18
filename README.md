@@ -1,7 +1,7 @@
 Fx.Anything
 ===========
 
-A simple yet powerful plug-in allowing time based transformations on anything while supporting all of MooTools Fx class default properties and events.
+A simple yet powerful plug-in allowing animated transformations on anything while supporting all of MooTools Fx class default properties and events.
 
 How to use
 ----------
@@ -24,7 +24,7 @@ Samples
 -------
 
 ### CSS3 Transform
-Demo: [CSS3 example 1](http://jsfiddle.net/davidck/ZrPGd/)
+Demo: [CSS3 ex1](http://jsfiddle.net/davidck/ZrPGd/)
 
 	var _propeller = document.body.getElement('.propeller');
 	
@@ -46,6 +46,20 @@ Demo: [CSS3 example 1](http://jsfiddle.net/davidck/ZrPGd/)
 		}        
 	});
 	
+	fx.start();
+
+### WebGL Transform	
+Demo: [WebGL ex1](http://jsfiddle.net/davidck/jUSEU/)
+
+	var fx = new Fx.Anything({
+		duration: 1600,
+		transition: Fx.Transitions.Bounce.easeOut,
+		onReport: function(progress) {
+			pointLight.position.x = progress*220-100;
+			pointLight.position.y = progress*60-30;
+			renderer.render(scene, camera);
+		}        
+	});
 	fx.start();
 
 Release Notes
