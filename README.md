@@ -5,17 +5,15 @@ A simple yet powerful plug-in allowing animated transformations on anything whil
 
 ![Fx.Anything](http://github.com/davidck/Fx.Anything/raw/master/logo.png)
 
-Demos
------
-[CSS3 ex1](http://jsfiddle.net/davidck/ZrPGd/), [WebGL ex1](http://jsfiddle.net/davidck/jUSEU/), Demo: [Chaining ex1](http://jsfiddle.net/davidck/DhPnK/)
+Demos Quicklinks
+----------------
+[CSS3 ex1](http://jsfiddle.net/davidck/ZrPGd/), [WebGL ex1](http://jsfiddle.net/davidck/jUSEU/), [Chaining ex1](http://jsfiddle.net/davidck/DhPnK/)
 
 How to use
 ----------
 
 ### Usage
 	var fx = new Fx.Anything({
-		duration: 1200,
-		transitions: Fx.Transitions.Bounce.easeOut,
 		onReport: function(progress, mixedVar) {
 			// use progress as your variable to control your effect.
 			// optionally pass in mixedVar 
@@ -24,7 +22,6 @@ How to use
 	fx.start();
 	fx.start('my string'); // mixedVar will contain your string.
 	fx.start([1, 2]); // mixedVar will contain your array.
-
 
 Samples
 -------
