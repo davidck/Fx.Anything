@@ -5,6 +5,10 @@ A simple yet powerful plug-in allowing animated transformations on anything whil
 
 ![Fx.Anything](http://github.com/davidck/Fx.Anything/raw/master/logo.png)
 
+Demos
+-----
+[CSS3 ex1](http://jsfiddle.net/davidck/ZrPGd/), [WebGL ex1](http://jsfiddle.net/davidck/jUSEU/), Demo: [Chaining ex1](http://jsfiddle.net/davidck/DhPnK/)
+
 How to use
 ----------
 
