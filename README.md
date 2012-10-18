@@ -5,14 +5,12 @@ A simple yet powerful plug-in allowing animated transformations on anything whil
 
 ![Fx.Anything](http://github.com/davidck/Fx.Anything/raw/master/logo.png)
 
-Demos Quicklinks
-----------------
-[CSS3 ex1](http://jsfiddle.net/davidck/ZrPGd/), [WebGL ex1](http://jsfiddle.net/davidck/jUSEU/), [Chaining ex1](http://jsfiddle.net/davidck/DhPnK/)
-
 How to use
 ----------
+### Demo Links (more sample usage below)
+[CSS3 ex1](http://jsfiddle.net/davidck/ZrPGd/), [WebGL ex1](http://jsfiddle.net/davidck/jUSEU/), [Chaining ex1](http://jsfiddle.net/davidck/DhPnK/)
 
-### Usage
+### Basic Usage
 	var fx = new Fx.Anything({
 		onReport: function(progress, mixedVar) {
 			// use progress as your variable to control your effect.
