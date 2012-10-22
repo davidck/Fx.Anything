@@ -3,13 +3,13 @@ Fx.Anything
 
 A simple yet powerful plug-in allowing animated transformations on anything while supporting all of MooTools Fx class default properties and events.
 
-** Update: New demo links below (css3, canvas, webgl) **
+** Update 2012-Oct-22: New demo links below (css3, canvas, webgl) **
 
 ![Fx.Anything](http://github.com/davidck/Fx.Anything/raw/master/logo.png)
 
 How to use
 ----------
-### Demo Links (updated regularly)
+### Demo Links
 [CSS3 ex1](http://jsfiddle.net/davidck/ZrPGd/), [WebGL(Three.js) ex1](http://jsfiddle.net/davidck/jUSEU/), [Canvas(RaphaelJS) ex1](http://jsfiddle.net/davidck/rGkwr/), [Chaining ex1](http://jsfiddle.net/davidck/DhPnK/)
 
 ### Basic Usage
