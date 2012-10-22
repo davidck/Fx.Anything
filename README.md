@@ -10,7 +10,7 @@ A simple yet powerful plug-in allowing animated transformations on anything whil
 How to use
 ----------
 ### Demo Links
-[CSS3 ex1](http://jsfiddle.net/davidck/ZrPGd/), [WebGL(Three.js) ex1](http://jsfiddle.net/davidck/jUSEU/), [Canvas(RaphaelJS) ex1](http://jsfiddle.net/davidck/rGkwr/), [Chaining ex1](http://jsfiddle.net/davidck/DhPnK/)
+[CSS3 ex1](http://jsfiddle.net/davidck/ZrPGd/), [WebGL(Three.js) ex1](http://jsfiddle.net/davidck/jUSEU/), [Canvas(RaphaelJS) ex1](http://jsfiddle.net/davidck/FjwCT/), [Chaining ex1](http://jsfiddle.net/davidck/DhPnK/)
 
 ### Basic Usage
 	var fx = new Fx.Anything({
@@ -66,7 +66,7 @@ Demo: [WebGL ex1](http://jsfiddle.net/davidck/jUSEU/)
 	fx.start();
 	
 ### Canvas (using RaphaelJS) Transform	
-Demo: [Canvas ex1](http://jsfiddle.net/davidck/rGkwr/)
+Demo: [Canvas ex1](http://jsfiddle.net/davidck/FjwCT/)
 
 	var scaleTo = 0.5;
 	var fx = new Fx.Anything({
