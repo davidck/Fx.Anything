@@ -9,7 +9,7 @@ A simple yet powerful plug-in allowing animated transformations on anything whil
 
 How to use
 ----------
-### Demo Links (more sample usage below)
+### Demo Links (updated regularly)
 [CSS3 ex1](http://jsfiddle.net/davidck/ZrPGd/), [WebGL(Three.js) ex1](http://jsfiddle.net/davidck/jUSEU/), [Canvas(RaphaelJS) ex1](http://jsfiddle.net/davidck/rGkwr/), [Chaining ex1](http://jsfiddle.net/davidck/DhPnK/)
 
 ### Basic Usage
