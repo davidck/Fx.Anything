@@ -3,12 +3,14 @@ Fx.Anything
 
 A simple yet powerful plug-in allowing animated transformations on anything while supporting all of MooTools Fx class default properties and events.
 
+** Update: New demo links below (css3, canvas, webgl) **
+
 ![Fx.Anything](http://github.com/davidck/Fx.Anything/raw/master/logo.png)
 
 How to use
 ----------
 ### Demo Links (more sample usage below)
-[CSS3 ex1](http://jsfiddle.net/davidck/ZrPGd/), [WebGL ex1](http://jsfiddle.net/davidck/jUSEU/), [Chaining ex1](http://jsfiddle.net/davidck/DhPnK/)
+[CSS3 ex1](http://jsfiddle.net/davidck/ZrPGd/), [WebGL(Three.js) ex1](http://jsfiddle.net/davidck/jUSEU/), [Canvas(RaphaelJS) ex1](http://jsfiddle.net/davidck/rGkwr/), [Chaining ex1](http://jsfiddle.net/davidck/DhPnK/)
 
 ### Basic Usage
 	var fx = new Fx.Anything({
@@ -49,7 +51,7 @@ Demo: [CSS3 ex1](http://jsfiddle.net/davidck/ZrPGd/)
 	
 	fx.start();
 
-### WebGL Transform	
+### WebGL (using Three.js) Transform	
 Demo: [WebGL ex1](http://jsfiddle.net/davidck/jUSEU/)
 
 	var fx = new Fx.Anything({
@@ -62,6 +64,27 @@ Demo: [WebGL ex1](http://jsfiddle.net/davidck/jUSEU/)
 		}        
 	});
 	fx.start();
+	
+### Canvas (using RaphaelJS) Transform	
+Demo: [Canvas ex1](http://jsfiddle.net/davidck/rGkwr/)
+
+	var scaleTo = 0.5;
+	var fx = new Fx.Anything({
+		duration: 2000,
+		link: 'cancel',
+		transition: Fx.Transitions.Elastic.easeOut,
+		onReport: function(progress, state) {
+			var newScale = (state == 'on') ? progress * scaleTo + 1 : (1+scaleTo) - (progress * scaleTo);
+			mainImage.transform('s'+newScale);
+			mainImage.attr({
+				opacity: newScale-0.5
+			});
+		}   
+	});
+	document.id('holder').addEvents({
+		mouseenter: fx.start.bind(fx, 'on'),
+		mouseleave: fx.start.bind(fx, 'off')
+	});
 	
 ### Chaining Example
 Demo: [Chaining ex1](http://jsfiddle.net/davidck/DhPnK/)
