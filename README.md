@@ -1,16 +1,14 @@
 Fx.Anything
 ===========
 
-A simple yet powerful plug-in allowing animated transformations on anything while supporting all of MooTools Fx class default properties and events.
-
-** Update 2012-Oct-22: New demo links below (css3, canvas, webgl) **
+An easy to use and flexible animation plug-in which taps into the power of MooTools FX.
 
 ![Fx.Anything](http://github.com/davidck/Fx.Anything/raw/master/logo.png)
 
 How to use
 ----------
 ### Demo Links
-[CSS3 ex1](http://jsfiddle.net/davidck/ZrPGd/), [WebGL(Three.js) ex1](http://jsfiddle.net/davidck/jUSEU/), [Canvas(RaphaelJS) ex1](http://jsfiddle.net/davidck/sRGZK/), [Chaining ex1](http://jsfiddle.net/davidck/DhPnK/)
+[CSS3 ex1](http://jsfiddle.net/davidck/ZrPGd/), [Three.js ex1](http://jsfiddle.net/davidck/jUSEU/), [RaphaelJS ex1](http://jsfiddle.net/davidck/sRGZK/), [Chaining ex1](http://jsfiddle.net/davidck/DhPnK/)
 
 ### Basic Usage
 	var fx = new Fx.Anything({
@@ -51,7 +49,7 @@ Demo: [CSS3 ex1](http://jsfiddle.net/davidck/ZrPGd/)
 	
 	fx.start();
 
-### WebGL (using Three.js) Transform	
+### Three.js	
 Demo: [WebGL ex1](http://jsfiddle.net/davidck/jUSEU/)
 
 	var fx = new Fx.Anything({
@@ -65,7 +63,7 @@ Demo: [WebGL ex1](http://jsfiddle.net/davidck/jUSEU/)
 	});
 	fx.start();
 	
-### Canvas (using RaphaelJS) Transform	
+### RaphaelJS	
 Demo: [Canvas ex1](http://jsfiddle.net/davidck/sRGZK/)
 
 	var scaleTo = 0.5;
